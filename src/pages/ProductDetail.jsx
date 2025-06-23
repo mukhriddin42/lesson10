@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { useGetProductsByIdQuery } from '../features/products/ProductApi';
+import { useGetProductsByIdQuery } from '../features/products/productApi';
 import { Button, Flex } from 'antd';
 import { Typography } from 'antd';
 
