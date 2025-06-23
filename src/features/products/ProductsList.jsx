@@ -1,5 +1,5 @@
 import { Card, Col, Row } from 'antd';
-import { useGetProductsQuery } from './ProductApi'
+import { useGetProductsQuery } from './productApi'
 import { Link } from 'react-router-dom';
 import { Typography } from 'antd';
 
