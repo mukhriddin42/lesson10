@@ -8,6 +8,10 @@ import Carousel from '../components/CarouselComponent'
 import CarouselComponent from '../components/CarouselComponent'
 import ConfiguratorSection from '../components/ConfiguratorSection'
 import CatoologSection from '../components/CatoologSection'
+import AboutSection from '../components/AboutSection'
+import SupportSection from '../components/SupportSection'
+import CustomerReviews from '../components/CustomerReviews'
+import Footer from '../components/Footer'
 const { Title } = Typography;
 
 const Home = () => {
@@ -22,6 +26,10 @@ const Home = () => {
         <ProductsList/>
         <ConfiguratorSection/>
         <CatoologSection/>
+        <AboutSection/>
+        <SupportSection/>
+        <CustomerReviews/>
+        <Footer/>
     </div>
   )
 }

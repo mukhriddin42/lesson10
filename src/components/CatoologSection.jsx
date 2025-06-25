@@ -1,16 +1,9 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
-import { Carousel, Col, Flex, Row, Typography } from "antd"
+import { Card, Carousel, Col, Flex, Row, Typography } from "antd"
 import { useRef } from "react";
+import catologs from '../../public/data/catolog.json'
+import { chunkArray } from "../utils/chunkArray";
 const { Title } = Typography;
-
-const contentStyle = {
-    margin: 0,
-    height: '560px',
-    color: '#fff',
-    lineHeight: '560px',
-    textAlign: 'center',
-    background: '#364d79',
-};
 
 const CatologSection = () => {
     const carouselRef = useRef();
@@ -22,6 +15,8 @@ const CatologSection = () => {
     const nextSlide = () => {
         carouselRef.current?.next();
     }
+
+    const groupedCata = chunkArray(catologs, 8);
     return (
         <div>
             <Title level={2}>Комплектующие</Title>
@@ -34,45 +29,29 @@ const CatologSection = () => {
                 </Flex>
             </Flex>
             <Carousel ref={carouselRef} className="my-6" infinite={false}>
-                <div>
-                    <Row gutter={[16, 16]}>
-                        <Col span={6}>
-                            <div style={{ background: '#eee', padding: '10px', textAlign: 'center' }}>1</div>
-                        </Col>
-                        <Col span={6}>
-                            <div style={{ background: '#eee', padding: '10px', textAlign: 'center' }}>2</div>
-                        </Col>
-                        <Col span={6}>
-                            <div style={{ background: '#eee', padding: '10px', textAlign: 'center' }}>3</div>
-                        </Col>
-                        <Col span={6}>
-                            <div style={{ background: '#eee', padding: '10px', textAlign: 'center' }}>4</div>
-                        </Col>
-                    </Row>
-                    <Row gutter={[16, 16]} style={{ marginTop: '16px' }}>
-                        <Col span={6}>
-                            <div style={{ background: '#eee', padding: '10px', textAlign: 'center' }}>5</div>
-                        </Col>
-                        <Col span={6}>
-                            <div style={{ background: '#eee', padding: '10px', textAlign: 'center' }}>6</div>
-                        </Col>
-                        <Col span={6}>
-                            <div style={{ background: '#eee', padding: '10px', textAlign: 'center' }}>7</div>
-                        </Col>
-                        <Col span={6}>
-                            <div style={{ background: '#eee', padding: '10px', textAlign: 'center' }}>8</div>
-                        </Col>
-                    </Row>
-                </div>
-                <div>
-                    <h3 style={contentStyle}>2</h3>
-                </div>
-                <div>
-                    <h3 style={contentStyle}>3</h3>
-                </div>
-                <div>
-                    <h3 style={contentStyle}>4</h3>
-                </div>
+                {groupedCata.map((group, index) => (
+                    <div key={index} style={{ padding: '10px' }}>
+                        <Row gutter={[16, 16]}>
+                            {group.map((item, i) => (
+                                <Col
+                                    key={i}
+                                    xs={24}
+                                    sm={12}
+                                    md={6}
+                                    lg={6}
+                                    xl={6}
+                                >
+                                    <Card
+                                        hoverable
+                                        cover={<img alt={item.title} src={item.image} style={{ height: '240px', objectFit: 'cover' }} />}
+                                    >
+                                        <Card.Meta style={{textAlign: 'center'}} title={item.title} />
+                                    </Card>
+                                </Col>
+                            ))}
+                        </Row>
+                    </div>
+                ))}
             </Carousel>
         </div>
     )

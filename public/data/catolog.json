@@ -1,39 +1,98 @@
 [
-    {
-        "title": "Клавиатуры",
-        "image": "https://files.ox-sys.com/cache/original/image/d3/23/48/d32348b36c863e6fbcec18f69f0d2274d898db0eceda1675e89fd0ed08b7db0c.png"
-    },
-    {
-        "title": "Мышки",
-        "image": "https://files.ox-sys.com/cache/original/image/d3/dd/68/d3dd6827ae0f9d8999e0573816c14d875a57220be0a7e4d85cc5c6fba3a5c428.png"
-    },
-    {
-        "title": "Микрофоны",
-        "image": "https://files.ox-sys.com/cache/original/image/96/07/95/96079505d678680959dc0583173ee6aec88d410293eceeac98f3d586b263bab3.png"
-    },
-    {
-        "title": "Наушники",
-        "image": "https://files.ox-sys.com/cache/original/image/ce/7a/d3/ce7ad3f5d18ab3247d08fcb5d54c6f0f4fcf1d2fb358cd58e7645a051f18b527.png"
-    },
-    {
-        "title": "Мониторы",
-        "image": "https://files.ox-sys.com/cache/original/image/7e/0a/e5/7e0ae5bd85f152a83a95341d111b6fe0e3b6e2153059db0eefc9e8a30c8871ca.png"
-    },
-    {
-        "title": "",
-        "image": ""
-    },
-    {
-        "title": "",
-        "image": ""
-    },
-    {
-        "title": "",
-        "image": ""
-    },
-    {
-        "title": "",
-        "image": ""
-    },
-    
+  {
+    "title": "Клавиатуры",
+    "image": "https://files.ox-sys.com/cache/original/image/d3/23/48/d32348b36c863e6fbcec18f69f0d2274d898db0eceda1675e89fd0ed08b7db0c.png"
+  },
+  {
+    "title": "Мышки",
+    "image": "https://files.ox-sys.com/cache/original/image/d3/dd/68/d3dd6827ae0f9d8999e0573816c14d875a57220be0a7e4d85cc5c6fba3a5c428.png"
+  },
+  {
+    "title": "Микрофоны",
+    "image": "https://files.ox-sys.com/cache/original/image/96/07/95/96079505d678680959dc0583173ee6aec88d410293eceeac98f3d586b263bab3.png"
+  },
+  {
+    "title": "Наушники",
+    "image": "https://files.ox-sys.com/cache/original/image/ce/7a/d3/ce7ad3f5d18ab3247d08fcb5d54c6f0f4fcf1d2fb358cd58e7645a051f18b527.png"
+  },
+  {
+    "title": "Мониторы",
+    "image": "https://files.ox-sys.com/cache/original/image/7e/0a/e5/7e0ae5bd85f152a83a95341d111b6fe0e3b6e2153059db0eefc9e8a30c8871ca.png"
+  },
+  {
+    "title": "Кронштейны",
+    "image": "https://files.ox-sys.com/cache/original/image/be/17/38/be1738133cab1f5a7f60d6aedbdb67e08f5315c4c613d83e742fd3b25b9a7553.png"
+  },
+  {
+    "title": "Колонки",
+    "image": "https://files.ox-sys.com/cache/original/image/2e/bf/fa/2ebffa53825ced446e5868fc9f51accfb1b41c77b0ebbfb5799ef620b33d741e.png"
+  },
+  {
+    "title": "Коврики",
+    "image": "https://files.ox-sys.com/cache/original/image/44/d4/91/44d4917eb0aae08938709e5201034f2cf8046f9b9d3f105c0accc763d8a0dcd6.png"
+  },
+  {
+    "title": "Ноутбуки",
+    "image": "https://files.ox-sys.com/cache/original/image/05/d6/3c/05d63cb59036e8d0b0730d1a16d5a29856cb610dcf1dfc7ea2a96db635d29655.png"
+  },
+  {
+    "title": "Консоли",
+    "image": "https://files.ox-sys.com/cache/original/image/ab/1a/c1/ab1ac1173586ca800c5a70de0eff02f3a04a35b61caa0dd9c2c4f346569bda5b.png"
+  },
+  {
+    "title": "Контроллеры",
+    "image": "https://files.ox-sys.com/cache/original/image/c0/35/29/c0352983c72761cab5b1253f6f5c96b98d8387b9b8366816908622fdb24da771.png"
+  },
+  {
+    "title": "Wi-FI",
+    "image": "https://files.ox-sys.com/cache/original/image/22/d7/fe/22d7fece745d88bb4f35247960fc5b7631c6311d1498868209da5a492bb39302.png"
+  },
+  {
+    "title": "Корпуса",
+    "image": "https://files.ox-sys.com/cache/original/image/a3/bd/74/a3bd74921ffd933f98ead0c0c6537e6fd9477a22c5681a0328b42f73a51b08a3.png"
+  },
+  {
+    "title": "Коврики",
+    "image": "https://files.ox-sys.com/cache/original/image/44/d4/91/44d4917eb0aae08938709e5201034f2cf8046f9b9d3f105c0accc763d8a0dcd6.png"
+  },
+  {
+    "title": "Клавиатуры",
+    "image": "https://files.ox-sys.com/cache/original/image/d3/23/48/d32348b36c863e6fbcec18f69f0d2274d898db0eceda1675e89fd0ed08b7db0c.png"
+  },
+  {
+    "title": "Мышки",
+    "image": "https://files.ox-sys.com/cache/original/image/d3/dd/68/d3dd6827ae0f9d8999e0573816c14d875a57220be0a7e4d85cc5c6fba3a5c428.png"
+  },
+  {
+    "title": "Ноутбуки",
+    "image": "https://files.ox-sys.com/cache/original/image/05/d6/3c/05d63cb59036e8d0b0730d1a16d5a29856cb610dcf1dfc7ea2a96db635d29655.png"
+  },
+  {
+    "title": "Консоли",
+    "image": "https://files.ox-sys.com/cache/original/image/ab/1a/c1/ab1ac1173586ca800c5a70de0eff02f3a04a35b61caa0dd9c2c4f346569bda5b.png"
+  },
+  {
+    "title": "Кронштейны",
+    "image": "https://files.ox-sys.com/cache/original/image/be/17/38/be1738133cab1f5a7f60d6aedbdb67e08f5315c4c613d83e742fd3b25b9a7553.png"
+  },
+  {
+    "title": "Колонки",
+    "image": "https://files.ox-sys.com/cache/original/image/2e/bf/fa/2ebffa53825ced446e5868fc9f51accfb1b41c77b0ebbfb5799ef620b33d741e.png"
+  },
+  {
+    "title": "Коврики",
+    "image": "https://files.ox-sys.com/cache/original/image/44/d4/91/44d4917eb0aae08938709e5201034f2cf8046f9b9d3f105c0accc763d8a0dcd6.png"
+  },
+  {
+    "title": "Кронштейны",
+    "image": "https://files.ox-sys.com/cache/original/image/be/17/38/be1738133cab1f5a7f60d6aedbdb67e08f5315c4c613d83e742fd3b25b9a7553.png"
+  },
+  {
+    "title": "Мышки",
+    "image": "https://files.ox-sys.com/cache/original/image/d3/dd/68/d3dd6827ae0f9d8999e0573816c14d875a57220be0a7e4d85cc5c6fba3a5c428.png"
+  },
+  {
+    "title": "Ноутбуки",
+    "image": "https://files.ox-sys.com/cache/original/image/05/d6/3c/05d63cb59036e8d0b0730d1a16d5a29856cb610dcf1dfc7ea2a96db635d29655.png"
+  }
 ]
