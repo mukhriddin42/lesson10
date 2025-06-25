@@ -33,7 +33,7 @@ const ProductsList = () => {
               }
             >
               <Title level={4}>{product.title}</Title>
-              <p>{product.description}</p>
+              <p style={{ height: '60px', objectFit: 'cover', }} >{product.description}</p>
             </Card>
           </Link>
         </Col>
